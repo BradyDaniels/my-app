@@ -1,0 +1,141 @@
+/* 0.RESET */
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------Product-------*/
+
+.Body{
+    background:#eeeded;
+}
+
+.Card{
+  
+    display: inline-block;
+    width: 300px;
+    height: 440px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 50px;
+    font-family:'Roboto', sans-serif;
+    border-width: 20ch;   
+    
+}
+
+.Card .Content{
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.Card .Title{
+    margin-bottom: 20px;
+    border-bottom:rgba(0, 0, 0, 0.212) 2px solid
+}
+
+.PImage{
+    margin-bottom: 20px;
+    border: rgba(0, 0, 0, 0.212) 2px solid;
+}
+
+.pText{
+    padding-top: 10px;
+    border-top:rgba(0, 0, 0, 0.212) 1px solid
+}
+
+.pPrice{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+    color:black
+}
+
+.a{
+    background: rgba(0, 0, 0, 0.199);
+}
+
+/*-------Content----------*/
+
+.IContent{
+    font-family: 'Roboto', sans-serif;
+}
+
+.HeadT{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.AcordContent{
+    margin-left: 20px;
+    width: 300px;
+    min-width: 300px;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.AcordContent img{
+    position: relative;
+    left: 20px;
+    bottom: -5px;
+}
+
+.TextInfo{
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+.TextInfo img{
+    background: rgb(51, 125, 223);
+    border-radius: 70%;
+    margin-left: 350px;
+    margin-bottom: 40px;
+}

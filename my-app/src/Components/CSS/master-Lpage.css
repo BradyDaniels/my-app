@@ -1,0 +1,229 @@
+/* 0.RESET */
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*-------1-NAVIGATION BAR-------*/
+#navBar{
+	justify-content: center;
+    display: flex;
+	align-items: center;
+	height: 8%;
+	background-color: #1E92FF;
+	margin-bottom: 0%;
+    
+}
+
+#BtGroup{
+   padding-right: 25px;
+   padding-left: 25px;
+}
+
+#Link{
+	text-decoration: none;
+	color: black;
+}
+
+#HomeIcon{
+	position: relative;
+	left: -5px;
+	bottom: 2px;
+}
+/*-------------------------------*/
+
+/*-------------2-LOGO--------------*/
+#C_Logo{
+	background:url(../Images/LPage-LogoImage.jpg) no-repeat center top;
+	background-size: cover;
+	margin:0;
+	padding: 0;
+	height: 200px;
+}
+
+.Content{
+	padding: 60px 0px;
+	margin-bottom: 80px;
+}
+.Content  .First{
+	display: inline-block;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: none;
+	
+}
+/*--------3-PRODUCTS---------*/
+.First{
+	background-color: #0096d2;
+	border-bottom-right-radius:80% ;
+	margin-bottom: 0px;
+}
+
+.Title{
+	margin-bottom: 40px;
+    font: 40px 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.First .Text{
+	max-width: 1055px;
+	margin-left: 80px;
+	margin-right: 250px;
+	display: inline-block;
+
+}
+
+.First p{
+	max-width: 450px;
+	font: 15px 'Roboto', sans-serif;
+}
+
+.First .Image{
+	display: inline-block;
+	
+}
+
+#BtnMore{
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	background-color:  #0d6a8f;
+}
+
+.Second{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 400px;
+}
+
+.Second .Image{
+	display: inline-block;
+	margin-left: 250px;
+	margin-right: 300px;
+}
+
+.Second p{
+	max-width: 450px;
+	font: 15px 'Roboto', sans-serif;
+}
+
+.Second .Text{
+	display: inline-block;
+	bottom: 100px;
+	position: relative;
+}
+
+
+.Third{
+   background:#EEEEEE;
+   border-top-left-radius: 50%;
+}
+
+.Third .Image{
+	position: relative;
+	align-self: center;
+	left: 35%;
+	right: 10%;
+	margin-bottom: 80px;
+}
+
+.Third .Text{
+	position: relative;
+	align-self: center;
+	left: 30%;
+	right: 40%;
+}
+
+.Third p{
+	max-width: 450px;
+	font: 15px 'Roboto', sans-serif;
+	text-align: center;
+}
+/*--------------------------------------*/
+
+/*--------------4-FOOTPAGE----------------*/
+.FootPage{
+	background-color:  #1B6FCE;	
+	margin-top: -90px;
+}
+
+.FootPage .Ty{
+	font: 15px 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.FootPage .SocialMedia{
+	font: 15px 'Roboto', sans-serif;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 200px;
+}
+
+
+.FootPage .SocialMedia ul{
+	padding-top: 20px;
+	
+}
+
+.FootPage .SocialMedia li{
+	margin-bottom: 10px;
+	font-weight: bold;
+	
+}
+
+#FootIcon{
+	position: relative;
+	margin-right: 10px;
+	top: 6px;
+    
+}
+
+/*--------------------------------------*/
