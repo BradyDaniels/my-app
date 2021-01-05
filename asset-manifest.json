@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.0f4116d4.chunk.css",
+    "main.js": "/my-app/static/js/main.62def2cb.chunk.js",
+    "main.js.map": "/my-app/static/js/main.62def2cb.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.8c504172.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.8c504172.js.map",
+    "static/js/2.a1048d20.chunk.js": "/my-app/static/js/2.a1048d20.chunk.js",
+    "static/js/2.a1048d20.chunk.js.map": "/my-app/static/js/2.a1048d20.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/main.0f4116d4.chunk.css.map": "/my-app/static/css/main.0f4116d4.chunk.css.map",
+    "static/js/2.a1048d20.chunk.js.LICENSE.txt": "/my-app/static/js/2.a1048d20.chunk.js.LICENSE.txt",
+    "static/media/First1.9f970e04.jpg": "/my-app/static/media/First1.9f970e04.jpg",
+    "static/media/master-Lpage.css": "/my-app/static/media/LPage-LogoImage.37f23661.jpg",
+    "static/media/Logo_Xample.52e3f7e7.png": "/my-app/static/media/Logo_Xample.52e3f7e7.png",
+    "static/media/ProductXample1.8e7c2f5c.jpg": "/my-app/static/media/ProductXample1.8e7c2f5c.jpg",
+    "static/media/Second2.bfae271d.jpg": "/my-app/static/media/Second2.bfae271d.jpg",
+    "static/media/Third3.640bd9cf.png": "/my-app/static/media/Third3.640bd9cf.png",
+    "static/media/Xample_WB_1.b88d5d84.png": "/my-app/static/media/Xample_WB_1.b88d5d84.png",
+    "static/media/Xample_WB_2.a3d7dcc3.jpg": "/my-app/static/media/Xample_WB_2.a3d7dcc3.jpg",
+    "static/media/Xample_WB_3.7bafcfcf.jpg": "/my-app/static/media/Xample_WB_3.7bafcfcf.jpg",
+    "static/media/Xample_WB_4.60061682.jpg": "/my-app/static/media/Xample_WB_4.60061682.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c504172.js",
+    "static/js/2.a1048d20.chunk.js",
+    "static/css/main.0f4116d4.chunk.css",
+    "static/js/main.62def2cb.chunk.js"
+  ]
+}
