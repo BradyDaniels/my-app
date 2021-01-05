@@ -17,6 +17,8 @@ function App() {
     <React.Fragment className="App">
          <Router>
             <NavBar></NavBar>
+            <Route exact path="/my-app" component={LPage
+            } ></Route>
             <Route exact path="/" component={LPage
             } ></Route>
             <Route exact path="/Products" component={Products}/>
